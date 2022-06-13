@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: url('/images/pattern-background-desktop.svg') no-repeat ;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.container{
+    width: 450px;
+    height: 620px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.topImg img{
+    border-radius: 15px 15px 0px 0px;
+}
+.order-box{
+    background-color: #fff;
+    height: 62.5% ;
+    padding: 20px 40px;
+
+}
+.order-summary{
+    text-align: center;
+    padding: 20px 15px 20px 15px;
+}
+.order-summary h1{
+    margin-bottom: 8px;
+}
+.order-summary p{
+     color:  hsl(224, 23%, 55%);
+    padding: 8px;
+    font-size: 16px;
+}
+.annual{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color:  hsl(225, 100%, 98%);
+
+}
+.plan{
+    margin-right: 70px;
+}
+.plan p{
+    margin-top: 5px;
+    color:  hsl(224, 23%, 55%);
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding-top: 20px; */
+    padding: 15px;
+}
+.btn a{
+    text-decoration: none;
+    color:  hsl(224, 23%, 55%);
+}
+.btn a:first-child{
+    color: #fff;
+    padding: 10px 0px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+}
+.btn a:last-child{
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+   .container{
+    width: 90vw;
+   }
+   .topImg img{
+    width: 100%;
+   }
+   .order-box{ 
+    padding: 20px 10px;
+   }
+   .annual{ 
+    padding: 20px 10px 20px 12px;
+   }
+  }
+
+
+
+
+/* 
+i can create and publish my own cheat sheet
+*/
